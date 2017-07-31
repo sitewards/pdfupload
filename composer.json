@@ -1,0 +1,9 @@
+{
+    "name": "sitewards/pdfupload",
+    "description": "Sitewards PdfUpload after SUPEE-9767 patch",
+    "type": "magento-module",
+    "homepage": "http://www.sitewards.com",
+    "require": {
+        "php": ">=5.6"
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sitewards_PdfUpload>
+            <version>1.0.0</version>
+        </Sitewards_PdfUpload>
+    </modules>
+    <global>
+        <models>
+            <sitewards_pdfupload_model>
+                <class>Sitewards_PdfUpload_Model</class>
+            </sitewards_pdfupload_model>
+            <core>
+                <rewrite>
+                    <file_validator_image>Sitewards_PdfUpload_Model_Rewrite_Core_File_Validator_Image</file_validator_image>
+                </rewrite>
+            </core>
+            <cms>
+                <rewrite>
+                    <wysiwyg_images_storage>Sitewards_PdfUpload_Model_Rewrite_Cms_Wysiwyg_Images_Storage</wysiwyg_images_storage>
+                </rewrite>
+            </cms>
+        </models>
+    </global>
+</config>
